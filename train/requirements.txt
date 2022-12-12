@@ -1,0 +1,7 @@
+matplotlib
+monai
+nibabel
+tensorboard
+scikit-learn
+SimpleITK
+pyradiomics

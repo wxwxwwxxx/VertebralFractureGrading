@@ -21,6 +21,12 @@ Running the script `crop.py` to generate patches of vertebrae. The patches will 
 
 For convenience, we just attatch the Genant's Grade to the filename of each vertebrae patch. Please write your own code to rename filename to the format `uuid_{label}_{genant's grade}.nii.gz`. The label is encoded as the following rule.
 
+> 1-7: cervical spine: C1-C7
+> 8-19: thoracic spine: T1-T12
+> 20-25: lumbar spine: L1-L6
+> 26: sacrum - not labeled in this dataset
+> 27: cocygis - not labeled in this dataset
+> 28: additional 13th thoracic vertebra, T13
 
 ### 5. Dataset Split
 

@@ -19,7 +19,7 @@ Running the script `crop.py` to generate patches of vertebrae. The patches will 
 
 ### 4. Rename
 
-For convenience, we just attatch the Genant's Grade to the filename of each vertebrae patch. Please write your own code to rename filename to the format `uuid_{label}_{genant's grade}.nii.gz`. The label is encoded as the following rule.
+For convenience, we just attatch the Genant's Grade to the filename of each vertebrae patch. Please write your own code to rename filename to the format `{image id}_{label}_{genant's grade}.nii.gz`. The label is encoded as the following rule.
 
 > 1-7: cervical spine: C1-C7  
 > 8-19: thoracic spine: T1-T12  
@@ -38,16 +38,16 @@ Arrange your dataset folder to the following structure.
 
 > dataset  
 > ├── img  
-> │   ├── image1.nii.gz  
-> │   ├── L_Mild_ZX2723628_19_0.nii.gz  
-> │   ├── L_Mild_ZX2723628_20_0.nii.gz  
-> │   ├── L_Mild_ZX2723628_21_1.nii.gz  
+> │   ├── image1_18_0.nii.gz  
+> │   ├── image1_19_0.nii.gz  
+> │   ├── image1_20_0.nii.gz  
+> │   ├── image1_21_1.nii.gz  
 > │    ...  
 > ├── seg  
-> │   ├── L_Mild_ZX2723628_18_0.nii.gz  
-> │   ├── L_Mild_ZX2723628_19_0.nii.gz  
-> │   ├── L_Mild_ZX2723628_20_0.nii.gz  
-> │   ├── L_Mild_ZX2723628_21_1.nii.gz  
+> │   ├── image1_18_0.nii.gz  
+> │   ├── image1_19_0.nii.gz  
+> │   ├── image1_20_0.nii.gz  
+> │   ├── image1_21_1.nii.gz  
 > │    ...  
 > ├── test_file_list.WA0aVG88.yaml  
 > └── train_file_list.WA0aVG88.yaml  

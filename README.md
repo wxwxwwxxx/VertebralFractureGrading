@@ -25,10 +25,10 @@ Our training and validaion code can be found in the `train` folder, and informat
 If you are going to use our code or data in your own work, we would be grateful if you cite our paper.
 
 > @article{wei2022faint,  
->   title={Faint Features Tell: Automatic Vertebrae Fracture Screening Assisted by Contrastive Learning},  
->   author={Wei, Xin and Cong, Huaiwei and Zhang, Zheng and Peng, Junran and Chen, Guoping and Li, Jinpeng},  
->   journal={arXiv preprint arXiv:2208.10698},  
->   year={2022}  
+> &nbsp;&nbsp;title={Faint Features Tell: Automatic Vertebrae Fracture Screening Assisted by Contrastive Learning},  
+> &nbsp;&nbsp;author={Wei, Xin and Cong, Huaiwei and Zhang, Zheng and Peng, Junran and Chen, Guoping and Li, Jinpeng},  
+> &nbsp;&nbsp;journal={arXiv preprint arXiv:2208.10698},  
+> &nbsp;&nbsp;year={2022}  
 > }  
 
 ## License

@@ -16,9 +16,9 @@ The `original_dataset.zip` contains the original CT images, segmentation masks o
 The Genant's Grade annotation is recorded in the `annotation.yaml` file. It is a dict with the following format.
 
 > CT filename:  
->   'vertebra label': 'Genant's Grade'  
->   'vertebra label': 'Genant's Grade'   
->   ...  
+> &nbsp;&nbsp;'vertebra label': 'Genant's Grade'  
+> &nbsp;&nbsp;'vertebra label': 'Genant's Grade'   
+> &nbsp;&nbsp;...  
 
 ### Processed Images
 

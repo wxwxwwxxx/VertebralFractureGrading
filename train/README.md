@@ -14,26 +14,26 @@ We use [DistributedDataParallel](https://pytorch.org/docs/stable/generated/torch
 
 The arguments are as follows:
 
-> '--tag', '-t'
+`'--tag', '-t'`
 
 Experiment tag, an identifier that is used to name the ckpt subfolder and tensorboard subfolder. If the tag is `debug`, then the ckechpoint and tensorboard won't be generated.
 
-> '--ckpt_root', '-cp'
+`'--ckpt_root', '-cp'`
 
 Checkpoint root folder, a subfolder with name `tag` will be created, and the model, log and training code will be recorded in it.
 
-> '--tensorboard', '-tb'
+`'--tensorboard', '-tb'`
 
 Tensorboard root folder, a subfolder with name `tag` will be created, and tensorboard file will be recorded in it.
 
-> '--dataset', '-d'
-> '--dataset_tag', '-dt'
+`'--dataset', '-d'`
+`'--dataset_tag', '-dt'`
 
 Dataset root path and dataset split tag. Please refer to the `pre-process` folder in this repo.
 
-> "--load_ckpt"
+`'--load_ckpt'`
 
-Whether to load the checkpoint. If true, the script will try to load the model at `ckpt_root/tag` folder, otherwise the model will be trained from scratch.
+Whether to load the checkpoint. If true, the script will try to load the model in the `ckpt_root/tag` folder, otherwise the model will be trained from scratch.
 
 #### If your script get stuck...
 

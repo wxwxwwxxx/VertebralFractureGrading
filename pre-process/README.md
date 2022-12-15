@@ -2,9 +2,9 @@
 
 ### 1. Segmentation and Labelling
 
-We ultilize the segmentation tool below to get segmentation masks and labels of vertebrae, please refer to its instruction. We recommend using the `docker` in the `verse2020` folder, for it can be easily depolyed.
+We ultilize the work below to generate segmentation masks and labels of vertebrae, please refer to its repo and instruction. We recommend using the `docker` in the `verse2020` folder, for it can be easily depolyed.
 
-https://github.com/christianpayer/MedicalDataAugmentationTool-VerSe
+[Coarse to Fine Vertebrae Localization and Segmentation with SpatialConfiguration-Net and U-Net](https://github.com/christianpayer/MedicalDataAugmentationTool-VerSe)
 
 After running the algorithm, the segmentation masks (end with `*_seg.nii.gz`) will be generated in the `result_christian_payer` folder. We rename them to the filenames of input images in the next procedures.
 
@@ -33,7 +33,7 @@ For convenience, we just attatch the Genant's Grade to the filename of each vert
 
 We use yaml to record the training and test file list. It is a list with filenames of vertebrae patches. You can write you own code to generate the file lists and dump it to yaml files. You should not split vertebrae of same CT image into different sets.
 
-The yaml file is named as `train_file_list.{dataset tag}.yaml` and `test_file_list.{dataset tag}.yaml`. The `dataset tag` is an identifier to the paired train and test list. You can create multiple dataset split with different `dataset tag` to conduct the multi fold cross-validation.
+The yaml file is named as `train_file_list.{dataset tag}.yaml` and `test_file_list.{dataset tag}.yaml`. The `dataset tag` is an identifier to the paired train and test list. You can create multiple dataset split with different `dataset tag` to conduct  multi fold cross-validation.
 
 ### 6. Dataset Arrangement
 

@@ -24,7 +24,7 @@ Our training and validaion code can be found in the `train` folder, and informat
 
 If you are going to use our code or data in your own work, we would be grateful if you cite our paper.
 
-> article{wei2022faint,  
+> @misc{wei2022faint,  
 >  title={Faint Features Tell: Automatic Vertebrae Fracture Screening Assisted by Contrastive Learning},  
 >  author={Wei, Xin and Cong, Huaiwei and Zhang, Zheng and Peng, Junran and Chen, Guoping and Li, Jinpeng},  
 >  eprint={arXiv preprint arXiv:2208.10698},  
@@ -33,4 +33,4 @@ If you are going to use our code or data in your own work, we would be grateful 
 
 ## License
 
-Our dataset is under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License, and our code is under [MIT](https://mit-license.org/) Lisence.
+Our dataset is under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License, and our code is under [MIT](https://github.com/wxwxwwxxx/VertebralFractureGrading/blob/main/LICENSE) Lisence.

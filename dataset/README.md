@@ -28,7 +28,7 @@ You can also download our pre-prosessed patches in the `processed_dataset.zip` f
 
 ### Pre-processed Dataset *VerSe*
 
-To validation our method on the external dataset, you can download our pre-processed *VerSe* at [Google Drive](https://drive.google.com/drive/folders/1582r45M3xWpqjRLARpLn0sNrO1QHmEDz?usp=share_link).
+To validate our method on the external dataset, you can download our pre-processed *VerSe* at [Google Drive](https://drive.google.com/drive/folders/1582r45M3xWpqjRLARpLn0sNrO1QHmEDz?usp=share_link).
 
 For the detailed information of *VerSe* dataset, please refer to its instruction at [*VerSe*](https://github.com/anjany/verse).
 

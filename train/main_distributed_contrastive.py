@@ -34,7 +34,7 @@ if __name__ == '__main__':
     parser.add_argument("--load_ckpt", action="store_true")
     args = parser.parse_args()
     ####Handcraft Tag####
-    args.tag = "SEnet50_Contrastive_Alter_Enhanced_Aug_SGD_linear"
+    # args.tag = "SEnet50_Contrastive_Alter_Enhanced_Aug_SGD_linear"
     args.ckpt_path = os.path.join(args.ckpt_root, args.tag)
 
     if args.tag == "debug":
@@ -56,8 +56,9 @@ if __name__ == '__main__':
     if local_rank == 0:
         os.makedirs(args.ckpt_path, exist_ok=True)
         train_code_save = os.path.join(args.ckpt_path, "train_code")
-        # shutil.rmtree(train_code_save, ignore_errors=True)
-        # shutil.copytree(".", train_code_save)
+        # backup the training code
+        shutil.copytree(".", train_code_save)
+        
     while not os.path.exists(args.ckpt_path):
         time.sleep(0.5)
     logger = CustomLogger(os.path.join(args.ckpt_path, "test_log.log"), os.path.join(args.ckpt_path, "test_log.csv"))

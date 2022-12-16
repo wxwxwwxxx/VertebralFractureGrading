@@ -1,14 +1,14 @@
-## Model Training
+# Model Training
 
-### Environment
+## Environment
 
 Our training environment is based on **CUDA 11.3** and **Pytorch 1.10**. Other python dependencies can be installed via
 
 > pip install -r requirements.txt
 
-### Training
+## Training
 
-We use [DistributedDataParallel](https://pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html) to optimize our model on two gpus. You can run the following script to train your own model.
+We use [DistributedDataParallel](https://pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html) to optimize our model on two gpus. You can run the following script to train the model.
 
 > python -m torch.distributed.run --nproc_per_node=2 main_distributed_contrastive.py --load_ckpt
 
@@ -16,7 +16,7 @@ The arguments are as follows:
 
 `--tag, -t`
 
-Experiment tag, an identifier that is used to name the ckpt subfolder and tensorboard subfolder. If the tag is `debug`, then the ckechpoint and tensorboard won't be generated.
+Experiment tag, an identifier that is used to name the checkpoint subfolder and tensorboard subfolder. If the tag is `debug`, then the checkpoint and tensorboard won't be recorded.
 
 `--ckpt_root, -cp`
 
@@ -39,6 +39,8 @@ Whether to load the checkpoint. If true, the script will try to load the model i
 
 In certain situation, NCCL will cause stuck issue during gpu synchronization. If your script get stuck, you can try to set environment variable `NCCL_P2P_DISABLE=1`.
 
-### Validation
+## Validation
 
-Todo.
+TDB. 
+
+For now, please refer to the validation part of `main_distributed_contrastive.py`.

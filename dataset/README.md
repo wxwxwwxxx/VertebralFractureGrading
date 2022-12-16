@@ -22,15 +22,15 @@ The Genant's Grade annotation is recorded in the `annotation.yaml` file. It is a
 
 ### Processed Images
 
-Our pipeline assess vertebrae fracture with the patches of vertebrae. To generate the vertebrae patches, please refer to the `pre-process` folder in the repo.
+Our pipeline assess vertebrae fracture with the patches of vertebrae, and you can download our pre-prosessed patches in the `processed_dataset.zip` file, which can be directly loaded by our training code.
 
-You can also download our pre-prosessed patches in the `processed_dataset.zip` file.
+For the detailed information about pre-processing and dataset arrangement, please refer to the `pre-process` folder in the repo.
 
 ### Pre-processed Dataset *VerSe*
 
-To validate our method on the external dataset, you can download our pre-processed *VerSe* at [Google Drive](https://drive.google.com/drive/folders/1582r45M3xWpqjRLARpLn0sNrO1QHmEDz?usp=share_link).
+To validate our method on external dataset, you can download our pre-processed *VerSe* at [Google Drive](https://drive.google.com/drive/folders/1582r45M3xWpqjRLARpLn0sNrO1QHmEDz?usp=share_link).
 
-For the detailed information of *VerSe* dataset, please refer to its instruction at [*VerSe*](https://github.com/anjany/verse).
+For the detailed information of *VerSe* dataset, please refer to its repository at [*VerSe*](https://github.com/anjany/verse).
 
 ## Prepare Your Own Dataset
 

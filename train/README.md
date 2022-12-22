@@ -41,6 +41,6 @@ In certain situation, NCCL will cause stuck issue during gpu synchronization. If
 
 ## Validation
 
-TDB. 
+TBD. 
 
 For now, please refer to the validation part of `main_distributed_contrastive.py`.

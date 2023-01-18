@@ -12,7 +12,7 @@ Our work has been accepted by BIBM2022 as short paper.
 
 ## Data
 
-To support the research community of medical image analysis, our dataset is **publicly available** at [Google Drive](https://drive.google.com/drive/folders/1EM5zSf8OwBav6doZnLRaXGR-UupEyzjP?usp=sharing). You can find the detailed introduction in the `dataset` folder.
+To support the research community of medical image analysis, our dataset is **publicly available** at [OneDrive](https://ucasaccn-my.sharepoint.com/:f:/g/personal/weixin_ucas_ac_cn/EmulCm-JKdhOvVZkjBM431ABhogi8yK5leXak8fLdixvsw?e=F4NqVA). You can find the detailed introduction in the `dataset` folder.
 
 Additionaly, if you are going to train our model with your own data, you can refer to the `pre-process` folder to arrange the dataset.
 

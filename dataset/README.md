@@ -1,6 +1,6 @@
 ## Dataset
 
-We collected 208 clinical CT images containing 2423 vertebrae. The dataset can be downloaded at [Google Drive](https://drive.google.com/drive/folders/1EM5zSf8OwBav6doZnLRaXGR-UupEyzjP?usp=sharing). 
+We collected 208 clinical CT images containing 2423 vertebrae. The dataset can be downloaded at [OneDrive](https://ucasaccn-my.sharepoint.com/:f:/g/personal/weixin_ucas_ac_cn/EmulCm-JKdhOvVZkjBM431ABhogi8yK5leXak8fLdixvsw?e=F4NqVA). 
 
 ### Original Images
 
@@ -28,7 +28,7 @@ For the detailed information about pre-processing and dataset arrangement, pleas
 
 ### Pre-processed Dataset *VerSe*
 
-To validate our method on external dataset, you can download our pre-processed *VerSe* at [Google Drive](https://drive.google.com/drive/folders/1582r45M3xWpqjRLARpLn0sNrO1QHmEDz?usp=share_link).
+To validate our method on external dataset, you can download our pre-processed *VerSe* at [OneDrive](https://ucasaccn-my.sharepoint.com/:f:/g/personal/weixin_ucas_ac_cn/EoCDFnTBoFdAnYfIOfVrU_ABPY8n-EyXghl8fbcG97sG1Q?e=QcE6tD).
 
 For the detailed information of *VerSe* dataset, please refer to its repository at [*VerSe*](https://github.com/anjany/verse).
 

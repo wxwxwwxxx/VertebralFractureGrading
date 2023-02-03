@@ -24,11 +24,13 @@ Our training and validaion code can be found in the `train` folder, and informat
 
 If you are going to use our code or data in your own work, we would be grateful if you cite our paper.
 
-> @article{wei2022faint,  
+> @inproceedings{wei2022faint,  
 > &nbsp;&nbsp;title={Faint Features Tell: Automatic Vertebrae Fracture Screening Assisted by Contrastive Learning},  
 > &nbsp;&nbsp;author={Wei, Xin and Cong, Huaiwei and Zhang, Zheng and Peng, Junran and Chen, Guoping and Li, Jinpeng},  
-> &nbsp;&nbsp;journal={arXiv preprint arXiv:2208.10698},  
-> &nbsp;&nbsp;year={2022}  
+> &nbsp;&nbsp;booktitle={2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},  
+> &nbsp;&nbsp;pages={848--853},  
+> &nbsp;&nbsp;year={2022},  
+> &nbsp;&nbsp;organization={IEEE Computer Society}  
 > }  
 
 ## License
